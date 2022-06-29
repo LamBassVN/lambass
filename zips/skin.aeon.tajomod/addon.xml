@@ -1,0 +1,28 @@
+<addon id="skin.aeon.tajomod" name="Aeon Tajo Mod" provider-name="manfeed" version="5.0.1">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+		<import addon="script.skinshortcuts" version="2.0.2"/>
+		<import addon="service.library.data.provider" version="0.4.2"/>
+		<import addon="script.embuary.helper" version="2.0.9"/>
+		<import addon="resource.images.studios.white" version="0.0.30"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.7"/>
+	</requires>
+	<extension debugging="false" effectslowdown="0.75" point="xbmc.gui.skin">
+		<res aspect="16:9" default="true" folder="1080i" height="1080" width="1920"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<forum/>
+		<website>https://github.com/manfeed/skin.aeon.tajomod</website>
+		<email/>
+		<source>https://github.com/manfeed/skin.aeon.tajomod</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<summary lang="en_GB">Aeon Tajo</summary>
+		<description lang="en_GB">Aeon Tajo: Changes everything so that nothing changes. Inspired on Aeon Nox 5 (thanks to BigNoid).</description>
+		<disclaimer lang="en_GB">Mouse control is supported, althoug not recommended. It may not work correctly in all cases.</disclaimer>
+	</extension>
+</addon>

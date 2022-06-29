@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.aeon.terror.k19vn" version="1.1.1" name="Aeon:Terror K19" provider-name="Terror Skins">
+	<requires>
+		<import addon="script.skin.helper.colorpicker" version="2.0.1" />
+		<import addon="xbmc.gui" version="5.15.0" />
+		<import addon="script.skinshortcuts" version="2.0.2" />
+		<import addon="service.library.data.provider" version="0.4.2" />
+		<import addon="script.grab.fanart" version="0.16.0" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Skin mod by Terror Skins</summary>
+		<description lang="en_GB">Fork of Aeon Nox SiLVO</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>

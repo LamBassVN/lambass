@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.rapiervn" version="12.4.0" name="Rapier V2" provider-name="Scarfa, Gade, LamBass">
+  <requires>
+    <import addon="xbmc.gui" version="5.15.0"/>
+    <import addon="script.favourites" version="4.0.9"/>
+	<!--<import addon="script.skin.helper.service" version="1.1.3"/>-->
+	<import addon="script.embuary.helper" version="2.0.2"/>
+	<import addon="resource.images.studios.white" version="0.0.2"/>
+  </requires>
+  <extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <license>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported</license>
+    <forum>https://forum.kodi.tv/forumdisplay.php?fid=120</forum>
+    <website>https://kodi.wiki/view/Add-on:Rapier</website>
+    <source>https://github.com/gade01/Rapier</source>
+    <assets>
+      <icon>icon.png</icon>
+      <banner>resources/banner.jpg</banner>
+      <clearlogo>resources/clearlogo.png</clearlogo>
+    </assets>
+    <summary lang="en_GB">Rapier skin by Scarfa, Gade, LamBass.</summary>
+    <summary lang="vi_VN">Rapier skin by Scarfa, Gade, LamBass.</summary>	
+    <description lang="en_GB">The goal is to provide a simple to use but clean and elegant interface that focuses on efficiency when browsing your media. Important considerations are put on usability, performance, and providing the user with flexibility when it comes to customization. Rapier tries to support all the latest features Kodi has to offer as long as it fits in with the skin's design goals.</description>
+    <description lang="vi_VN">The goal is to provide a simple to use but clean and elegant interface that focuses on efficiency when browsing your media. Important considerations are put on usability, performance, and providing the user with flexibility when it comes to customization. Rapier tries to support all the latest features Kodi has to offer as long as it fits in with the skin's design goals.</description>	
+  </extension>
+</addon>

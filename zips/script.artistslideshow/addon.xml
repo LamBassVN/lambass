@@ -1,0 +1,29 @@
+<addon id="script.artistslideshow" name="Artist Slideshow" provider-name="pkscout,ronie" version="3.3.2">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" version="2.22.0+matrix.1" />
+		<import addon="script.module.defusedxml" version="0.6.0+matrix.1" />
+		<import addon="script.module.kodi-six" version="0.1.3.1" />
+		<import addon="script.module.future" version="0.17.1+matrix.2" />
+	</requires>
+	<extension library="default.py" point="xbmc.python.script">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<news>
+v.3.3.2
+- fix for future Python 3.9 compatibility
+		</news>
+		<assets>
+        	<icon>icon.png</icon>
+        </assets>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/showthread.php?t=124880</forum>
+		<website>https://kodi.wiki/index.php?title=Add-on:Artist_Slideshow</website>
+		<email>artistslideshow.xbmc@gmail.com</email>
+		<source>https://github.com/pkscout/script.artistslideshow</source>
+		<summary lang="en_GB">Download images and additional info of the currently playing artist</summary>
+		<description lang="en_GB">Addon to download images and additional information from fanart.tv and theaudiodb.com of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
+	</extension>
+</addon>

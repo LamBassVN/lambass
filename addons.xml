@@ -1,0 +1,2173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons>
+
+<addon id="repository.slyguy" name="SlyGuy Repository" provider-name="SlyGuy" version="0.0.3">
+  <extension point="xbmc.addon.repository" name="SlyGuy Repository">
+    <dir>
+      <info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
+      <checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by SlyGuy</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="repository.jurialmunkey" name="jurialmunkey Alpha Repository" version="2.2" provider-name="jurialmunkey">
+    <extension point="xbmc.addon.repository" name="jurialmunkey Alpha Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/repo/zips/</datadir>
+        </dir>
+		<dir minversion="18.0" maxversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/leia/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/matrix/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>jurialmunkey Alpha Repository</summary>
+        <description>A repository for alpha releases of jurialmunkey's skins.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.nice" version="1.0.1" name="[COLOR red][B]NICE[/B][/COLOR] [COLOR yellow][B]Repository[/B][/COLOR]" provider-name="NICE">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="NICE Repository">
+        <dir>
+            <info compressed="false">https://raw.github.com/PhatDatPQ/smrzips/master/addons.xml</info>
+            <checksum>https://raw.github.com/PhatDatPQ/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/PhatDatPQ/smrzips/raw/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Nice Repository</summary>
+        <description lang="en">This is official Nice Repository
+        </description>
+        <disclaimer lang="en">The provider is not responsible for any issues caused by using this addon.
+        </disclaimer>
+        <email>nofearlose@gmail.com</email>
+        <platform>all</platform>
+    </extension>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>			
+    </assets>	
+</addon>
+
+<addon id="repository.anontester" name="Wuff's Kodi Addons" version="1.0.0" provider-name="anontester">
+	<extension point="xbmc.addon.repository" name="Wuff's Kodi Addon Repository">
+        <dir minversion="17.0.0">
+		    <info compressed="true">https://raw.githubusercontent.com/anontester/kodi-repo/master/addons.xml.gz</info>
+		    <checksum>https://raw.githubusercontent.com/anontester/kodi-repo/master/addons.xml.gz.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/anontester/kodi-repo/master/</datadir>
+		    <hashes>md5</hashes>
+        </dir>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Wuff's Addon Repository</summary>
+		<description>Download and install Wuff's Kodi addon repository.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>		
+	</extension>
+</addon>
+
+<addon id="repository.5star" name="Repository for 5Star Kodi addons" version="6.1.0" provider-name="Luis Rodrigues">
+    <extension point="xbmc.addon.repository" name="Repository for 5Star Kodi addons">
+        <info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/5-star/repository.5star/raw/master/zips/</datadir>
+    </extension> 
+    <extension point="xbmc.addon.metadata">
+        <summary>Repository for 5Star Kodi addons</summary>
+        <description>Repository for 5Star Kodi addons</description>
+        <platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+    </extension>
+</addon>
+
+<addon id="repository.a4ksubtitles"
+       name="a4kSubtitles Repository"
+       version="1.1.0"
+       provider-name="Unknown">
+    <extension point="xbmc.addon.repository">
+        <info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
+        <datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
+        <artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>a4kSubtitles</summary>
+        <description>a4kSubtitles Repository</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="service.subtitles.a4ksubtitles"
+       name="a4kSubtitles"
+       version="3.3.0"
+       provider-name="Unknown">
+    <requires>
+      <import addon="script.module.requests"/>
+      <import addon="vfs.libarchive" optional="true"/>
+    </requires>
+    <extension point="xbmc.subtitle.module" library="main.py"/>
+    <extension point="xbmc.service" library="main_service.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">a4kSubtitles - Multi-Source Subtitles Addon</summary>
+        <description>
+Multi-source subtitles addon optimized for Seren and a4kScrapers.
+Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
+        </description>
+        <platform>all</platform>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <license>MIT License</license>
+        <website>https://github.com/newt-sc/a4kSubtitles</website>
+        <source>https://github.com/newt-sc/a4kSubtitles</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.subs2n" name="subs2n module" version="1.0.0" provider-name="NICE">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Provides SubS2N library functionality for Kodi addons</summary>
+        <description lang="en_GB">Provides SubS2N library functionality for Kodi addons</description>
+        <disclaimer lang="en_GB" >May contain a bug</disclaimer>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://nicerepo.cf</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="service.subtitles.opensubtitles_by_opensubtitles_by_nice"
+       name="OpenSubtitles.org by OpenSubtitles"
+       version="5.2.16"
+       provider-name="amet, opensubtitles">
+  <requires>
+    <import addon="script.module.subs2n" version="1.0.0"/>
+    <import addon="script.module.chardet" />
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">OpenSubtitles by OpenSubtitles.org</summary>
+    <description lang="en_GB">Anonymously search and download subtitles for movies and TV-Series from OpenSubtitles.org without log-in. Search in 75 languages, 4.000.000+ subtitles, daily updates. </description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>https://forum.opensubtitles.org/viewtopic.php?f=8&amp;t=15847</forum>
+    <website>http://www.opensubtitles.org</website>
+    <email>admin [at] opensubtitles {dot} org</email>                                               
+	<assets>
+	    <icon>icon.png</icon>
+	    <fanart>logo.jpg</fanart>    			
+	</assets>
+    <source>https://github.com/opensubtitles/service.subtitles.opensubtitles_by_opensubtitles</source>    
+  </extension>
+</addon>
+
+<addon id="service.subtitles.subscenenice"
+       name="Subscene 2022"
+       version="1.0.0"
+       provider-name="NICE">
+    <requires>
+        <!-- <import addon="xbmc.python" version="3.0.0"/> -->
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.subtitle.module" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">SUBSCENE HỔ TRỢ KODI 19.4</summary>
+        <description lang="en">SUBSCENE HỔ TRỢ KODI 19.4
+Liên Hệ: Fb.Com/PhatDatPQ
+Donate: 
+        ♥ Argibank ♥
+        ♥ 7790205260097 ♥
+        ♥ ĐOÀN PHÁT ĐẠT ♥
+ĐÓNG GÓP CHO CỘNG ĐỒNG KODI VN - VUI LÒNG KHÔNG MANG ĐI THƯƠNG MẠI. CẢM ƠN ♥
+        </description>
+        <disclaimer lang="en"/>
+        <platform>all</platform>
+        <language/>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>https://www.facebook.com/groups/704400303417098</forum>
+        <website/>
+        <email/>
+        <source>https://github.com/manacker/service.subtitles.subscene</source>
+        <news>
+[v1.0.0]:
+  * Subscene Hổ Trợ Kodi 19.4
+        </news>
+        <assets>
+        <icon>icon.png</icon>
+        </assets>		
+    </extension>
+</addon>
+
+<addon id="skin.aeon.tajomod" name="Aeon Tajo Mod" provider-name="manfeed" version="5.0.1">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+		<import addon="script.skinshortcuts" version="2.0.2"/>
+		<import addon="service.library.data.provider" version="0.4.2"/>
+		<import addon="script.embuary.helper" version="2.0.9"/>
+		<import addon="resource.images.studios.white" version="0.0.30"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.7"/>
+	</requires>
+	<extension debugging="false" effectslowdown="0.75" point="xbmc.gui.skin">
+		<res aspect="16:9" default="true" folder="1080i" height="1080" width="1920"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<forum/>
+		<website>https://github.com/manfeed/skin.aeon.tajomod</website>
+		<email/>
+		<source>https://github.com/manfeed/skin.aeon.tajomod</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<summary lang="en_GB">Aeon Tajo</summary>
+		<description lang="en_GB">Aeon Tajo: Changes everything so that nothing changes. Inspired on Aeon Nox 5 (thanks to BigNoid).</description>
+		<disclaimer lang="en_GB">Mouse control is supported, althoug not recommended. It may not work correctly in all cases.</disclaimer>
+	</extension>
+</addon>
+
+<addon id="skin.estuary.modv2vn" version="3.5.0" name="Estuary MOD V2" provider-name="Guilouz, K19 branch by PvD">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="xbmc.gui" version="5.15.0"/>
+		<import addon="script.skinshortcuts" version="1.1.3"/>
+        <import addon="script.image.resource.select" version="3.0.2"/>
+		<import addon="script.module.pvr.artwork" version="2.0.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+ 		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.service" library="scripts/services.py" visible="!String.IsEmpty(Window(home).Property(CurrentSkin))" />
+	<extension point="kodi.context.item">
+      	<menu id="kodi.core.main">
+      		<item library="scripts/context_menu_jumptoletter.py">
+ 				<label>$LOCALIZE[40165]</label>
+ 				<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,set) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,artist) | String.IsEqual(ListItem.dbtype,album) | String.IsEqual(ListItem.dbtype,musicvideo) | Container.Content(addons)] + !Window.IsVisible(Home)</visible>
+ 			</item>
+      		<item library="scripts/context_menu_moviessets.py">
+ 				<label>$LOCALIZE[40181]</label>
+ 				<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + String.IsEqual(ListItem.DBType,set) + !Window.IsVisible(Home)</visible>
+ 			</item>
+    	</menu>
+ 	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Estuary MOD V2 skin by Guilouz, adapted for Matrix by PvD</summary>
+		<description lang="en_GB">Estuary MOD V2 is a mod from Estuary by Guilouz for Kodi 18 and adapted for Kodi 19 (Matrix) by PvD from Kodinerds Community. It attempts to be easy for first time Kodi users to understand and use.</description>
+		<disclaimer lang="en_GB">For better experience, be sure to install all addons required by the theme.</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<source>https://github.com/b-jesch/skin.estuary.modv2vn</source>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+	</extension>
+</addon>
+
+<addon
+  id="skin.xonfluencevn"
+  version="4.2.1"
+  name="Xonfluence Mod"
+  provider-name="Helly, bsoriano, LamBass">
+  <requires>
+    <import addon="xbmc.gui" version="5.15.0"/>
+    <import addon="script.favourites" version="8.1.2" />
+    <import addon="script.skinshortcuts" version="2.0.2" />	
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+    <description lang="en">Xonfluence is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+    <disclaimer lang="en">You break it - You get to keep the pieces</disclaimer>
+    <platform>all</platform>
+	  <license>GNU General Public License version 2</license>
+	  <forum>https://forum.kodi.tv/showthread.php?tid=346302</forum>
+	  <website></website>
+	  <email></email>
+	  <source>https://github.com/bartolomesoriano/skin.xonfluencevn</source>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="skin.fuse.neuemod" version="1.1.1" name="Neue Mod" provider-name="jurialmunkey, lambass">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0"/>
+        <import addon="script.skinshortcuts" version="2.0.2"/>
+        <import addon="script.skin.helper.service" version="1.1.43"/>
+        <import addon="script.image.resource.select" version="3.0.2"/>
+        <import addon="resource.images.studios.white" version="0.0.30"/>
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6"/>
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Soft gradients, pixel highlights and visible fanart</summary>
+        <description lang="en">Neue Mod utilises low list viewtypes throughout the skin in order to showcase fanart. The home menu bar is accessible from anywhere by pressing up, minimising the need to ever "go home".</description>
+        <platform>all</platform>
+        <license>Creative Commons Non Commercial 3.0 License</license>
+        <forum/>
+        <source/>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon
+    id="skin.project.auramod"
+    version="1.1.1"
+    name="Aura Mod"
+    provider-name="jurialmunkey, ProtoType, LamBass">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.2" />
+        <import addon="script.image.resource.select" version="3.0.2" />
+        <import addon="resource.images.studios.white" version="0.0.30" />
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Minimalistic. Customizable. Multiple Widgets. Modified To How I Like It!</summary>
+        <description lang="en_GB">Project Aura is my first attempt at anything to do with Kodi skinning. Out of all the skins I've tried, Aura was everything I wanted. When I learned there was no Matrix support, I decided to make it myself! I have made a few tweaks here and there, but the majority of the skin is exactly as jurialmunkey designed it. He deserves all the credit in the world.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <source>https://github.com/ProtoTypeRepo/skin.project.auramod</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.confluence.vn" version="4.8.1" name="Confluence" provider-name="Jezz_X, Team Kodi, LamBass">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>GNU General Public License version 2</license>
+		<forum>https://forum.kodi.tv/forumdisplay.php?fid=125</forum>
+		<source>https://github.com/LamBassVN/lambasskodi/raw/matrix/zips/skin.confluence.vn</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Skin Confluence Mod and Vietnameseization by LamBass</summary>
+		<summary lang="vi_VN">Giao diện Confluence được Mod và Việt Hóa bởi LamBass</summary>		
+		<description lang="en_GB">Confluence is one of the most commonly used skins on Kodi.</description>
+		<description lang="vi_VN">Confluence là 1 trong những giao diện được sử dụng phổ biến nhất trên Kodi</description>		
+	</extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.resurrection.modvn" name="Arctic: Zephyr 2 - Resurrection Mod" provider-name="jurialmunkey, pkscout, nfm886, lambass" version="1.1.1">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.2" />
+        <import addon="script.artistslideshow" version="3.3.2" />
+        <import addon="script.image.resource.select" version="3.0.2" />
+        <!-- not this -->
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="resource.images.studios.white" version="0.0.30" />
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
+        <import addon="resource.images.weathericons.white" version="0.0.6" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">This is a light mod of Arctic Zephyr 2 by heppen. Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey and moded to work with Kodi 19 Matrix by pkscout. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=362941</forum>
+        <source>https://github.com/nfm886/skin.arctic.zephyr.2.resurrection.modvn</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.artistslideshow" name="Artist Slideshow" provider-name="pkscout,ronie" version="3.3.2">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" version="2.22.0+matrix.1" />
+		<import addon="script.module.defusedxml" version="0.6.0+matrix.1" />
+		<import addon="script.module.kodi-six" version="0.1.3.1" />
+		<import addon="script.module.future" version="0.17.1+matrix.2" />
+	</requires>
+	<extension library="default.py" point="xbmc.python.script">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<news>
+v.3.3.2
+- fix for future Python 3.9 compatibility
+		</news>
+		<assets>
+        	<icon>icon.png</icon>
+        </assets>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/showthread.php?t=124880</forum>
+		<website>https://kodi.wiki/index.php?title=Add-on:Artist_Slideshow</website>
+		<email>artistslideshow.xbmc@gmail.com</email>
+		<source>https://github.com/pkscout/script.artistslideshow</source>
+		<summary lang="en_GB">Download images and additional info of the currently playing artist</summary>
+		<description lang="en_GB">Addon to download images and additional information from fanart.tv and theaudiodb.com of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
+	</extension>
+</addon>
+
+	<addon id="skin.ace2mod" version="1.8.1" name="Ace 2 Mod" provider-name="MarcosQui, LamBass">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+        <import addon="resource.uisounds.aeonmq6" version="1.0.0" />
+        <import addon="script.favourites" version="8.1.2" />
+        <import addon="script.globalsearch" version="9.0.8" />		
+        <import addon="script.image.resource.select" version="3.0.2" />	
+        <import addon="script.skin.helper.colorpicker" version="2.0.1" />
+        <import addon="service.library.data.provider" version="0.4.2" />
+        <import addon="script.skin.helper.service" version="1.1.43" />		
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Ace 2, improved, more light and more powerful than ever.</summary>
+		<summary lang="vi_VN">Ace 2, improved, more light and more powerful than ever.</summary>
+		<description lang="en">The Ace reaches its second edition.[CR]Reformulated, very simple to use, with a new code that provides a lightweight and powerful skin.[CR]The Ace 2 incorporates new features such as Flexible Widgets 3nd Generation which takes the main menu's level of customization to something never seen before.[CR]Ace 2, you've never seen a skin like this.</description>
+		<disclaimer lang="en_GB">Ace 2, improved, more light and more powerful than ever.</disclaimer>
+		<disclaimer lang="vi_VN">Ace 2, improved, more light and more powerful than ever.</disclaimer>		
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>https://forum.kodi.tv/</forum>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="skin.cosmicpro.lambass" version="1.0.82" name="Cosmic Pro" provider-name="heppen,lambass">
+  <requires>
+    <import addon="xbmc.gui" version="5.15.0"/>
+    <import addon="script.skinshortcuts" version="1.1.5"/>
+    <import addon="script.embuary.info" version="2.0.8"/>
+    <import addon="script.embuary.helper" version="2.0.8"/>	
+    <import addon="resource.images.studios.white" version="0.0.28"/>
+    <import addon="resource.images.studios.coloured" version="0.0.20"/>
+    <import addon="resource.images.weathericons.white" version="0.0.6"/>
+    <import addon="resource.images.moviegenreicons.transparent" version="0.0.6"/>
+  </requires>
+  <extension point="xbmc.gui.skin" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Đơn giản, nhẹ và sáng tạo</summary>
+    <description lang="en_GB">Giao diện được thiết kế để người dùng tập trung vào việc thưởng thức Media. Nó cung cấp nhiều giải pháp sáng tạo mà mọi người yêu điện ảnh đánh giá cao.</description>
+    <platform>all</platform>
+    <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+    <forum>https://www.facebook.com/tofu.mamtom/</forum>
+    <source>https://github.com/LamBassVN/lambasskodi/raw/matrix/zips/skin.cosmicpro.lambass</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.modvn" version="1.2.0" name="Arctic: Zephyr V2" provider-name="jurialmunkey, beatmasterrs, lambass">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0"/>
+        <import addon="script.skinshortcuts" version="0.4.0"/>
+        <import addon="script.globalsearch" version="5.0.0"/>
+        <import addon="script.image.resource.select" version="0.0.5"/>
+        <import addon="resource.images.weathericons.white" version="0.0.6"/>
+        <import addon="script.skin.helper.colorpicker" version="1.0.11"/>
+        <import addon="script.embuary.info" version="0.0.1"/>
+        <import addon="script.embuary.helper" version="1.2.14"/>
+        <import addon="plugin.video.themoviedb.helper" version="0.0.1"/>		
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>Creative Commons Non Commercial 3.0 License</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=337862</forum>
+        <source>https://github.com/beatmasterRS/skin.arctic.zephyr.modvn</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <summary lang="en_GB">Clean, minimal, elegant, simple, light. Based on the original Arctic: Zephyr skin by jurialmunkey.</summary>
+        <summary lang="vi_VN">Clean, minimal, elegant, simple, light. Based on the original Arctic: Zephyr skin by jurialmunkey.</summary>		
+        <description lang="en_GB">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
+        <description lang="vi_VN">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
+    </extension>
+</addon>
+
+<addon id="skin.rapiervn" version="12.4.0" name="Rapier V2" provider-name="Scarfa, Gade, LamBass">
+  <requires>
+    <import addon="xbmc.gui" version="5.15.0"/>
+    <import addon="script.favourites" version="4.0.9"/>
+	<!--<import addon="script.skin.helper.service" version="1.1.3"/>-->
+	<import addon="script.embuary.helper" version="2.0.2"/>
+	<import addon="resource.images.studios.white" version="0.0.2"/>
+  </requires>
+  <extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <license>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported</license>
+    <forum>https://forum.kodi.tv/forumdisplay.php?fid=120</forum>
+    <website>https://kodi.wiki/view/Add-on:Rapier</website>
+    <source>https://github.com/gade01/Rapier</source>
+    <assets>
+      <icon>icon.png</icon>
+      <banner>resources/banner.jpg</banner>
+      <clearlogo>resources/clearlogo.png</clearlogo>
+    </assets>
+    <summary lang="en_GB">Rapier skin by Scarfa, Gade, LamBass.</summary>
+    <summary lang="vi_VN">Rapier skin by Scarfa, Gade, LamBass.</summary>	
+    <description lang="en_GB">The goal is to provide a simple to use but clean and elegant interface that focuses on efficiency when browsing your media. Important considerations are put on usability, performance, and providing the user with flexibility when it comes to customization. Rapier tries to support all the latest features Kodi has to offer as long as it fits in with the skin's design goals.</description>
+    <description lang="vi_VN">The goal is to provide a simple to use but clean and elegant interface that focuses on efficiency when browsing your media. Important considerations are put on usability, performance, and providing the user with flexibility when it comes to customization. Rapier tries to support all the latest features Kodi has to offer as long as it fits in with the skin's design goals.</description>	
+  </extension>
+</addon>
+
+<addon id="skin.appletv" name="AppleTV" provider-name="Wyrm" version="1.8.0">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0" />
+		<import addon="resource.uisounds.apptv" version="1.0.4" />
+		<import addon="resource.images.classificationicons.colour" version="0.0.3" />
+		<import addon="script.embuary.helper" version="2.0.8"/>
+	</requires>
+	<extension debugging="false" effectslowdown="1" point="xbmc.gui.skin">
+		<res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">AppleTV inspired skin for Kodi</summary>
+		<summary lang="vi_VN">AppleTV inspired skin for Kodi</summary>		
+		<description lang="en_GB">AppTV is a AppleTV inspired skin for Kodi. It provides a very light weight minimalist gui while also allowing access to a number of advanced Kodi features not available in the original AppleTV interface.</description>
+		<description lang="vi_VN">AppTV is a AppleTV inspired skin for Kodi. It provides a very light weight minimalist gui while also allowing access to a number of advanced Kodi features not available in the original AppleTV interface.</description>		
+		<disclaimer lang="en_GB">Post help and feature/bug requests to [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>
+		<disclaimer lang="vi_VN">Post help and feature/bug requests to [CR]http://forum.Kodi.org/forumdisplay.php?fid=76</disclaimer>		
+		<platform>all</platform>
+		<license>Licensed under the Apache License, Version 2.0</license>
+		<forum>https://forum.kodi.tv/forumdisplay.php?fid=76</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/wyrm65/skin.appletv</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<news>1.8.0 - Matrix version of skin.</news>
+	</extension>
+</addon>
+
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="2.0.2" provider-name="BigNoid, marcelveldt, SiLVO">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.unidecode" version="1.1.1+matrix.2"/>
+        <import addon="script.module.simpleeval" version="0.9.10"/>
+    </requires>
+    <extension point="xbmc.python.library" library="resources/lib/entry_point.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum>https://www.facebook.com/tofu.mamtom/</forum>
+        <source>https://github.com/LamBassVN/lambasskodi/raw/matrix/zips/script.skinshortcuts</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <description lang="en_GB">Tiện ích bổ sung cho giao diện để cung cấp việc quản lý và liệt kê các phím tắt của người dùng một cách đơn giản (yêu cầu hỗ trợ giao diện)</description>
+    </extension>
+</addon>
+
+<addon id="script.module.simpleeval" name="Simple Eval" version="0.9.10" provider-name="Daniel Fairhead">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Simple Eval</summary>
+        <description lang="en_GB">A library for easily adding evaluatable expressions into python projects</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://github.com/LamBassVN/lambasskodi/raw/matrix/zips/script.module.simpleeval</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.unidecode" name="unidecode" version="1.1.1+matrix.2" provider-name="Tomaz Solc (Tomaz.solc@tablix.org)">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</summary>
+		<description lang="en_GB">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</description>
+		<disclaimer lang="en_GB">Code taken from https://pypi.org/project/Unidecode</disclaimer>
+		<license>GPL-2.0-or-later</license>
+		<website>https://pypi.org/project/Unidecode</website>
+		<source>https://github.com/LamBassVN/lambasskodi/raw/matrix/zips/script.module.unidecode</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="service.subtitles.subscene2"
+       name="Subscene.com v2.1.2"
+       version="2.1.2"
+       provider-name="Kodi Team">
+    <requires>
+        <!-- <import addon="xbmc.python" version="3.0.0"/> -->
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.subtitle.module"
+               library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Get subtitles from Subscene.com</summary>
+        <description lang="en">Subscene Only Support Kodi 19.0 for Android</description>
+        <disclaimer lang="en"/>
+        <platform>all</platform>
+        <language/>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
+        <website/>
+        <email/>
+        <source>https://github.com/LamBassVN/lambasskodi/raw/matrix/zips/service.subtitles.subscene2</source>
+        <news>
+[v2.1.2]:
+  * Only Support Kodi 19.0 for Android
+        </news>		
+        <assets>
+        <icon>icon.png</icon>
+        </assets>		
+    </extension>
+</addon>
+
+<addon id="plugin.video.xemganday" name="Xem Gần Đây" version="6.1.1" provider-name="Luis Rodrigues">
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Xem Gần Đây</summary>
+		<description lang="en_GB">Danh sách các phim, tập và nhạc đã phát gần đây nhất, bao gồm các nguồn phát trực tuyến từ bất kỳ addon nào</description>
+		<disclaimer lang="en_GB"></disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<source>https://github.com/LamBassVN/lambasskodi/raw/matrix/zips/plugin.video.xemganday</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon
+	id="service.languagepreferencemanager.vn"
+	name="Language Preference Manager"
+	version="0.0.7+matrix.3"
+	provider-name="ace20022/scott967"
+	>
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="default.py" start="login"/>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Language Preference Manager</summary>
+		<description lang="en_GB">Sets the audio and subtitle track according to your language preferences</description>
+		<disclaimer lang="en_GB">For bugs, requests or general questions visit the Language Preference Manager thread on the Kodi forum.</disclaimer>
+		<platform>all</platform>
+		<news>Updated with changes required for Kodi 19 / Python 3</news>
+		<source>https://github.com/LamBassVN/lambasskodi/raw/matrix/zips/service.languagepreferencemanager.vn</source>		
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+
+</addon>
+
+<addon id="skin.arctic.horizon.2vn" name="Arctic Horizon 2" provider-name="jurialmunkey" version="0.2.10">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="0.4.0" />
+        <import addon="script.skinvariables" version="1.0.0" />
+        <import addon="script.texturemaker" version="0.2.5" />
+        <import addon="resource.images.weatherfanart.multi" version="0.0.1" />
+        <import addon="resource.images.weathericons.white" version="0.0.1" />
+        <import addon="resource.images.studios.coloured" version="0.0.1" />
+        <import addon="resource.images.languageflags.colour" version="0.0.1" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Minimal. Classic. Gradients. Widgets.</summary>
+        <description lang="en">Arctic Horizon 2</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum />
+        <source />
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.horizonvn" name="Arctic Horizon" provider-name="jurialmunkey, lambass" version="0.5.81">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="0.4.0" />
+        <import addon="script.skinvariables" version="0.2.3" />	
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="resource.images.studios.white" version="0.0.10" />
+        <import addon="resource.images.studios.coloured" version="0.0.19" />
+        <import addon="resource.images.weathericons.white" version="0.0.1" />
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Minimal. Simple.</summary>
+        <description lang="en">Arctic Horizon is a minimalistic skin with an emphasis on simplicity.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum />
+        <source />
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.skinvariables"
+version="1.0.2"
+name="Skin Variables"
+provider-name="jurialmunkey">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.script" library="script.py" />
+<extension point="xbmc.python.pluginsource" library="plugin.py" />
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</summary>
+  <description lang="en_GB">Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using a template</description>
+  <disclaimer lang="en_GB">For skinners</disclaimer>
+  <license>GPL-3.0-or-later</license>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>
+
+<addon id="script.texturemaker"
+version="0.2.6"
+name="Texture Maker"
+provider-name="jurialmunkey">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.pil" version="1.1.7"/>
+</requires>
+<extension point="xbmc.python.script" library="script.py" />
+<extension point="xbmc.python.pluginsource" library="plugin.py">
+  <provides>image</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">Texture Maker helps skinners build gradient based textures</summary>
+  <description lang="en_GB">Texture Maker helps skinners build gradient based textures</description>
+  <disclaimer lang="en_GB">For skinners</disclaimer>
+  <license>GPL-3.0-or-later</license>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>
+
+<addon id="skin.eminencevn.2" name="Eminence 2" provider-name="jurialmunkey, LamBass" version="4.5.2">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />		
+        <import addon="script.skinshortcuts" version="1.0.0" />
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="resource.images.weathericons.white" version="0.0.6" />
+    </requires>
+    <extension debugging="false" effectslowdown="1.00" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="16x9" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Clean, clear, simple, modern.</summary>
+        <disclaimer lang="en_GB">Mouse and Touch device not supported</disclaimer>
+        <license>CC-NC-SA 3.0</license>
+        <website />
+        <email />
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>extras/viewthumbs/50.jpg</screenshot>
+            <screenshot>extras/viewthumbs/51.jpg</screenshot>
+            <screenshot>extras/viewthumbs/52.jpg</screenshot>
+            <screenshot>extras/viewthumbs/53.jpg</screenshot>
+            <screenshot>extras/viewthumbs/54.jpg</screenshot>
+            <screenshot>extras/viewthumbs/55.jpg</screenshot>
+            <screenshot>extras/viewthumbs/56.jpg</screenshot>
+            <screenshot>extras/viewthumbs/57.jpg</screenshot>
+            <screenshot>extras/viewthumbs/58.jpg</screenshot>
+            <screenshot>extras/viewthumbs/59.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.eminencemod.2" name="Eminence V2 Mod" provider-name="jurialmunkey, lambass" version="4.6.0">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="1.0.0" />
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="resource.images.weathericons.white" version="0.0.6" />
+    </requires>
+    <extension debugging="false" effectslowdown="1.00" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="16x9" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Clean, clear, simple, modern.</summary>
+        <disclaimer lang="en_GB">Mouse and Touch device not supported</disclaimer>
+        <description lang="en_GB">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
+        <license>CC-NC-SA 3.0</license>
+        <website />
+        <email />
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>extras/viewthumbs/50.jpg</screenshot>
+            <screenshot>extras/viewthumbs/51.jpg</screenshot>
+            <screenshot>extras/viewthumbs/52.jpg</screenshot>
+            <screenshot>extras/viewthumbs/53.jpg</screenshot>
+            <screenshot>extras/viewthumbs/54.jpg</screenshot>
+            <screenshot>extras/viewthumbs/55.jpg</screenshot>
+            <screenshot>extras/viewthumbs/56.jpg</screenshot>
+            <screenshot>extras/viewthumbs/57.jpg</screenshot>
+            <screenshot>extras/viewthumbs/58.jpg</screenshot>
+            <screenshot>extras/viewthumbs/59.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.aeon.terror.k19vn" version="1.1.1" name="Aeon:Terror K19" provider-name="Terror Skins">
+	<requires>
+		<import addon="script.skin.helper.colorpicker" version="2.0.1" />
+		<import addon="xbmc.gui" version="5.15.0" />
+		<import addon="script.skinshortcuts" version="2.0.2" />
+		<import addon="service.library.data.provider" version="0.4.2" />
+		<import addon="script.grab.fanart" version="0.16.0" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Skin mod by Terror Skins</summary>
+		<description lang="en_GB">Fork of Aeon Nox SiLVO</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="skin.djay.wavevn" version="1.1.1" name="Djay:Wave" provider-name="Djaythemes">
+	<requires>
+		<import addon="script.skin.helper.colorpicker" version="2.0.1" />
+		<import addon="xbmc.gui" version="5.15.0" />
+		<import addon="script.skinshortcuts" version="2.0.2" />
+		<import addon="service.library.data.provider" version="0.4.2" />
+		<import addon="script.grab.fanart" version="0.16.0" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Skin mod by Djay And Terror Skins the default view is set to icons</summary>
+		<description lang="en_GB">Fork of Aeon Terror Big thanks to TK for letting this to be released</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="script.image.resource.select" name="Image Resource Select Addon" version="3.0.2" provider-name="ronie">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Image resource selection addon</summary>
+		<description lang="en_GB">Script for skinners to let users select an image resource addon.</description>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=239558</forum>
+		<source>https://gitlab.com/ronie/script.image.resource.select</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+		<news>- code refactor</news>
+	</extension>
+</addon>
+
+<addon id="resource.images.weathericons.white" name="Weather Icons - White" version="0.0.6" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="weather" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">White Weather Icons</summary>
+		<description lang="en">White Weather Icons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.service.jre" name="Java Runtime Enviroment Install" version="1.0.0-arm" provider-name="Fandangos">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="main.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">install JRE for Bluray Menu Playback</summary>
+		<description lang="en_GB">This script will install JRE for Bluray and Bluray UHD Menu playback</description>
+		<platform>android</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>		
+	</extension>
+</addon>
+
+<addon id="script.service.jre64" name="Java Runtime Enviroment Install" version="1.0.0-arm64" provider-name="Fandangos">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="main.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">install JRE for Bluray Menu Playback</summary>
+		<description lang="en_GB">This script will install JRE for Bluray and Bluray UHD Menu playback</description>
+		<platform>android</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>		
+	</extension>
+</addon>
+
+<addon id="plugin.video.themoviedb.helper"
+version="4.9.7"
+name="TheMovieDb Helper"
+provider-name="jurialmunkey">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" version="2.9.1"/>
+  <import addon="script.module.pil" version="1.1.7"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="plugin.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.python.script" library="script.py" />
+<extension point="xbmc.service" library="service.py" />
+<extension point="kodi.context.item">
+  <menu id="kodi.core.main">
+    <item library="context.py" args="playusing">
+      <label>$ADDON[plugin.video.themoviedb.helper 32322]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing))</visible>
+    </item>
+    <item library="context.py" args="related">
+      <label>$ADDON[plugin.video.themoviedb.helper 32235]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.related))</visible>
+    </item>
+    <item library="context.py" args="addlibrary">
+      <label>$LOCALIZE[20444]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.addlibrary))</visible>
+    </item>
+    <item library="context.py" args="trakt">
+      <label>$ADDON[plugin.video.themoviedb.helper 32295]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt))</visible>
+    </item>
+    <item library="context.py" args="refresh">
+      <label>$ADDON[plugin.video.themoviedb.helper 32233]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh))</visible>
+    </item>
+    <item library="context.py" args="artwork">
+      <label>$ADDON[plugin.video.themoviedb.helper 32222]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork))</visible>
+    </item>
+    <item library="context.py" args="sorting">
+      <label>$ADDON[plugin.video.themoviedb.helper 32309]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.sorting))</visible>
+    </item>
+  </menu>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">TheMovieDb Helper - Now With Trakt Support!</summary>
+  <summary lang="es_ES">TheMovieDb Helper - ¡Ahora con soporte para Trakt!</summary>
+  <summary lang="fr_FR">TheMovieDb Helper - Maintenant avec support Trakt!</summary>
+  <description lang="en_GB">TheMovieDb Helper provides details about movies, tvshows and actors from TMDb. Users can access a variety of lists from TMDb and Trakt.</description>
+  <description lang="es_ES">TheMovieDb Helper proporciona detalles sobre películas, programas de televisión y actores de TMDb. Los usuarios pueden acceder a una variedad de listas desde TMDb y Trakt.</description>
+  <description lang="fr_FR">TheMovieDb Helper fournit des détails sur les films, les émissions de télévision et acteurs de TMDb. Les utilisateurs peuvent accéder à une variété de listes TMDb et Trakt.</description>
+  <disclaimer lang="en_GB">Provided by TheMovieDb and Trakt.</disclaimer>
+  <disclaimer lang="es_ES">Proporcionado por TheMovieDb y Trakt</disclaimer>
+  <disclaimer lang="fr_FR">Fourni par TheMovieDb et Trakt.</disclaimer>
+  <license>GPL-3.0-or-later</license>
+  <website>https://github.com/jurialmunkey/plugin.video.themoviedb.helper</website>
+  <forum>https://forum.kodi.tv/showthread.php?tid=345847</forum>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>
+
+<addon id="script.embuary.helper" name="Embuary Helper" version="2.0.9" provider-name="sualfred">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.pil" version="1.1.7"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Embuary Helper Script</summary>
+        <description lang="en_GB">Helper script to provide features and functions to the Embuary skin. A full documentation can be found on GitHub: https://github.com/sualfred/script.embuary.helper/wiki</description>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=345318</forum>
+        <source>https://github.com/sualfred/script.embuary.helper</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.embuary.info" name="Embuary Info" version="2.0.9" provider-name="sualfred">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+        <import addon="script.module.arrow" version="0.10.0"/>
+        <import addon="script.module.simplecache" version="2.0.2" />
+        <import addon="script.module.routing" version="0.2.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" />
+    <extension point="xbmc.python.pluginsource" library="plugin.py" />	
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Embuary Info Script</summary>
+        <description lang="en_GB">Helper script to provide The Movie DB informations for persons, shows and movies. Works best with a skin integration.</description>
+        <platform>all</platform>
+        <license>Apache-2.0</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=346034</forum>
+        <source>https://github.com/sualfred/script.embuary.info</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.globalsearch" name="Global Search" version="9.0.8" provider-name="ronie">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Search your library.</summary>
+		<summary lang="vi_VN">Search your library.</summary>		
+		<description lang="en_GB">This addon can find any item in your video and music library.</description>
+		<description lang="vi_VN">This addon can find any item in your video and music library.</description>		
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=109301</forum>
+		<source>https://gitlab.com/ronie/script.globalsearch/</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2.0.1" provider-name="sualfred,marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
+		<description lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</description>
+		<platform>all</platform>
+		<license>GPL-2.0</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<source>https://github.com/kodi-community-addons/script.skin.helper.colorpicker</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="script.module.arrow"
+       name="arrow"
+       version="1.0.3.1"
+       provider-name="crsmithdev, Razzeee">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.dateutil" version="2.8.1"/>
+    <import addon="script.module.typing_extensions" version="3.7.4.3"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Arrow: better dates and times for Python</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/crsmithdev/arrow</description>
+    <platform>all</platform>
+    <license>Apache2</license>
+    <source>https://github.com/Razzeee/script.module.arrow</source>
+    <email>beenje AT gmail.com</email>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.certifi" name="certifi" version="2022.5.18+matrix.1" provider-name="Certifi">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python package for providing Mozilla's CA Bundle.</summary>
+    <description lang="en_GB">Certifi is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Requests project.</description>
+    <license>MPL-2.0</license>
+    <website>https://github.com/certifi/python-certifi</website>
+    <source>https://github.com/certifi/python-certifi</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.chardet" name="chardet" version="4.0.0+matrix.1" provider-name="Character Encoding Detector">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">The Universal Character Encoding Detector</summary>
+    <description lang="en_GB">The Universal Character Encoding Detector</description>
+    <license>LGPL-2.1</license>
+    <platform>all</platform>
+    <website>https://chardet.readthedocs.io/en/latest/</website>
+    <source>https://github.com/chardet/chardet</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.idna" name="idna" version="3.3.0+matrix.1" provider-name="Kim Davies">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Internationalized Domain Names for Python</summary>
+    <description lang="en_GB">Internationalized Domain Names for Python</description>
+    <license>BSD-3-Clause</license>
+    <platform>all</platform>
+    <website>https://github.com/kjd/idna</website>
+    <source>https://github.com/kjd/idna</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.requests" name="requests" version="2.27.1+matrix.1" provider-name="Python Software Foundation">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.certifi" version="2022.5.18+matrix.1"/>
+    <import addon="script.module.chardet" version="4.0.0+matrix.1"/>
+    <import addon="script.module.idna" version="3.3.0+matrix.1"/>
+    <import addon="script.module.urllib3" version="1.26.9+matrix.1"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Requests is an elegant and simple HTTP library for Python, built for human beings.</summary>
+    <description lang="en_GB">Requests is an elegant and simple HTTP library for Python, built for human beings.</description>
+    <license>Apache-2.0</license>
+    <platform>all</platform>
+    <website>https://requests.readthedocs.io/</website>
+    <source>https://github.com/psf/requests</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.routing" name="Plugin routing" version="0.2.3+matrix.1" provider-name="takoi,Team Kodi">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Routing module for plugins</summary>
+        <description lang="en_GB">Library for building and parsing plugin URLs.</description>
+        <license>GPL-3.0</license>
+        <platform>all</platform>
+        <language>en_GB</language>
+        <source>https://github.com/tamland/kodi-plugin-routing</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.simplecache" name="Simple Cache Module" version="2.0.2" provider-name="sualfred">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Provides a simple file- and memory based cache for Kodi addons</summary>
+        <description lang="en_GB">Provides a simple file- and memory based cache for Kodi addons. Based on the original work of Marcelveldt.</description>
+        <platform>all</platform>
+        <license>Apache 2.0</license>
+        <forum/>
+        <source>https://github.com/sualfred/script.module.simplecache</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.urllib3" name="urllib3" version="1.26.9+matrix.1" provider-name="urllib3">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">urllib3 is a powerful, user-friendly HTTP client for Python</summary>
+    <description lang="en_GB">urllib3 is a powerful, user-friendly HTTP client for Python. Much of the Python ecosystem already uses urllib3 and you should too. urllib3 brings many critical features that are missing from the Python standard libraries</description>
+    <license>MIT</license>
+    <platform>all</platform>
+    <website>https://urllib3.readthedocs.io/en/latest/</website>
+    <source>https://github.com/urllib3/urllib3</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="resource.images.studios.white" name="Studio Icons - White" version="0.0.30" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="studios" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">White Studio Icons</summary>
+		<description lang="en">White Studio Icons</description>
+		<platform>all</platform>
+		<license>CC-BY-SA-3.0</license>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="script.favourites" name="Favourites script" version="8.1.2" provider-name="ronie, `Black">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Favourites script</summary>
+		<summary lang="vi_VN">Favourites script</summary>		
+		<description lang="en_GB">Fetches item from your Kodi favourites to populate Home menu/submenu with custom buttons.</description>
+		<description lang="vi_VN">Fetches item from your Kodi favourites to populate Home menu/submenu with custom buttons.</description>		
+		<disclaimer lang="en_GB">Needs skin support for it to be used properly</disclaimer>
+		<disclaimer lang="vi_VN">Needs skin support for it to be used properly</disclaimer>		
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=114671</forum>
+		<source>https://gitlab.com/ronie/script.favourites</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="resource.images.classificationicons.colour" name="Classification Icons - Colour" version="0.0.3" provider-name="Wyrm">
+	<extension point="kodi.resource.images" compile="true" type="classificationicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Colour Video Classification Icons</summary>
+		<description lang="en_GB">Colour square aspect (64x64) video classification icons for use with MPAA ListItem in Kodi. Can be used by Kodi skins using skin variables to show icons or the much quicker $INFO as a texture method. Details of usage and supported icons in the README.md file.</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Share Alike 3.0 United States</license>
+		<source>https://github.com/wyrm65/resource.images.classificationicons.colour</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+		<news>0.0.3[CR]  - Add additional naming of Spanish files to allow for Embuary helper returning additional characters in locale name .[CR]  - Update readme file to show current state of play.</news>
+	</extension>
+</addon>
+
+<addon id="resource.uisounds.apptv" version="1.0.4" name="AppTV UI Sounds" provider-name="Wyrm">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">AppTV GUI sounds</summary>
+    <description lang="en">AppTV GUI sounds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.1.0" provider-name="henryjfry">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.autocompletion" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script"       library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.pluginsource" library="plugin.py" />	
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">AutoCompletion for the virtual keyboard (needs skin support)</summary>
+        <description lang="en">AutoCompletion for the virtual keyboard (needs skin support)</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
+        <source>https://github.com/phil65/plugin.program.autocompletion</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.autocompletion" name="AutoCompletion library" version="2.0.5" provider-name="Philipp Temminghoff (phil65),sualfred">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.9.1"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Module providing some AutoCompletion functions</summary>
+        <description lang="en_GB">Module providing some AutoCompletion functions</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <source>https://github.com/sualfred/script.module.autocompletion</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.simplejson"
+       name="simplejson"
+       version="3.17.0+matrix.2"
+       provider-name="Bob Ippolito">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en_GB">Simple, fast, extensible JSON encoder/decoder for Python</summary>
+    <description lang="en_GB">Simple, fast, extensible JSON encoder/decoder for Python</description>
+    <disclaimer lang="en_GB">Code taken from https://pypi.org/project/simplejson/</disclaimer>
+    <license>MIT License, Academic Free License v. 2.1</license>
+    <website>https://pypi.org/project/simplejson/</website>
+    <source>https://github.com/simplejson/simplejson</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="resource.images.moviegenreicons.transparent" name="Movie Genre Icons - Transparent" version="0.0.6" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Transparent Movie Genre Icons</summary>
+		<description lang="en">Movie Genre Icons with a transparent background</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid, SiLVO" version="0.4.2">
+	<requires>
+		<import addon="xbmc.json" version="7.9.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.routing" version="0.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>executable</provides>
+	</extension>
+	<extension library="service.py" point="xbmc.service" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Browse movies and episodes in a variety of sorted playlists.</summary>
+		<description lang="en_GB">Plugin for skins to provide library data throughout the skin. It can also be used as standalone plugin to browse the playlists in the video library.</description>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=210063</forum>
+		<source>https://github.com/mikesilvo164/service.library.data.provider</source>
+		<news>Kodi v19 + Python 3 compatibility</news>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="resource.uisounds.aeonmq6" version="1.0.0" name="Aeon MQ 6 UI Sounds" provider-name="MarcosQui">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Aeon MQ 6 UI Sounds.</summary>
+	<summary lang="pt_br">Interface de son da skin Aeon MQ 6.</summary>
+    <description lang="en">Aeon MQ 6 UI Sounds</description>
+	<description lang="pt_br">Interface de son da skin Aeon MQ 6.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.9.3+matrix.1" provider-name="Leonard Richardson (leonardr@segfault.org)">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.soupsieve" version="2.0.0+matrix.1"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Screen-scraping library</summary>
+    <description lang="en_GB">Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.</description>
+    <license>MIT</license>
+    <platform>all</platform>
+    <website>https://www.crummy.com/software/BeautifulSoup/</website>
+	<source>https://code.launchpad.net/beautifulsoup</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.metadatautils"
+       name="Metadata and Artwork module"
+       version="1.0.50"
+       provider-name="marcelveldt and others">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3" />
+        <import addon="script.module.thetvdb" version="1.0.29" />
+        <import addon="script.module.musicbrainz" version="0.7.0"/>
+        <import addon="script.module.simplecache" version="2.0.2"/>
+        <import addon="script.module.arrow" version="0.15.5"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Metadata and artwork from common sources like TMDB, IMDB, TADB, OMDB and fanart.tv </summary>
+		<summary lang="es">Metadatos e ilustraciones de fuentes comunes como TMDB, IMDB, TADB, OMDB y fanart.tv </summary>
+        <description lang="en">The metadata and artwork module for Kodi provides rich metadata, including artwork for various metatypes by scraping (and caching) this information from sites like TMDB, musicbrainz and fanart.tv. This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+		<description lang="es">El módulo de metadatos e ilustraciones para Kodi proporciona metadatos enriquecidos, que incluyen ilustraciones paravarios metatipos al raspar (y almacenar en caché) esta información se extrae de sitios como TMDB, musicbrainz and fanart.tv.[CR][CR]Este producto utiliza la API de TMDb pero no está avalado ni certificado por TMDb</description>
+        <news>
+v1.0.50
+- remove rt
+- add tunefind
+- add metacritic for movie
+        </news>
+        <license>Apache 2.0</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=350315</forum>
+        <source>https://github.com/kodi-community-addons/script.module.metadatautils</source>
+        <platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+    </extension>
+</addon>
+
+<addon id="script.module.musicbrainz"
+       name="Musicbrainz NGS webservice python bindings"
+       version="0.7.0"
+       provider-name="marcelveldt and others">
+  <requires>
+	<import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python bindings for Musicbrainz' NGS webservice</summary>
+    <description>Kodi module library for the Python bindings for Musicbrainz' NGS webservice developed by alastair.</description>
+    <license>GNU GENERAL PUBLIC LICENSE V3</license>
+    <source>https://github.com/kodi-community-addons/script.module.musicbrainz</source>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.soupsieve" name="Soup Sieve" version="2.1.0+matrix.1" provider-name="Isaac Muse">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">A CSS selector library</summary>
+		<description lang="en_GB">Soup Sieve is a CSS selector library designed to be used with Beautiful Soup 4. It aims to provide selecting, matching, and filtering using modern CSS selectors.</description>
+		<license>MIT</license>
+		<platform>all</platform>
+		<website>https://pypi.org/project/soupsieve/</website>
+		<source>https://github.com/facelessuser/soupsieve</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="script.module.thetvdb"
+       name="The TVDB API v2"
+       version="1.0.32"
+       provider-name="marcelveldt and others">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+        <import addon="script.module.simplejson" version="3.17.0"/>
+        <import addon="script.module.simplecache" version="2.0.2"/>
+        <import addon="script.module.arrow" version="0.15.5"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>TheTVDB API v2 python module for Kodi</summary>
+        <description>TheTVDB API v3 python module for Kodi</description>
+        <license>Apache 2.0</license>
+        <source>https://github.com/kodi-community-addons/script.module.thetvdb</source>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+    <addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.45" provider-name="marcelveldt and others">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.metadatautils" version="1.0.31"/>
+        <import addon="script.module.simplecache" version="2.0.2"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>executable</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="login" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Ready to use widgets for all kind of media types</summary>
+        <description></description>
+	<news>
+Version 1.0.45
+* change settings.xml
+* change filters for nextaired (include watched tvshow)
+</news>
+		<assets>
+            <icon>icon.png</icon>
+        </assets>
+        <language></language>
+        <platform>all</platform>
+        <license>GPL v2.0</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+        <website></website>
+        <source>https://github.com/kodi-community-addons/script.skin.helper.widgets</source>
+    </extension>
+</addon>
+
+    <addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.43" provider-name="marcelveldt and others">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.metadatautils" version="1.0.31"/>
+    </requires>
+
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="resources\lib\context_animatedart.py">
+              <label>32024</label>
+              <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.EnableAnimatedPosters)) + Container.Content(movies)</visible>
+            </item>
+            <item library="resources\lib\context_pvr.py">
+                <label>32023</label>
+                <description>PVR artwork Configuration</description>
+                <visible>
+                    !String.IsEmpty(Window(Home).Property(SkinHelper.EnablePvrThumbs)) + 
+                    [Window.IsActive(MyPVRChannels.xml) | 
+                    Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) | 
+                    Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)]
+                </visible>
+            </item>
+            <item library="resources\lib\context_music.py">
+                <label>32023</label>
+                <description>Music artwork Configuration</description>
+                <visible>
+                    !String.IsEmpty(Window(Home).Property(SkinHelper.EnableMusicArt)) + 
+                    [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]
+                </visible>
+            </item>
+        </menu>
+    </extension>
+
+    <extension point="xbmc.python.library" library="default.py" />
+    <extension point="xbmc.python.pluginsource" library="plugin.py" />
+    <extension library="service.py" point="xbmc.service" start="login" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Helper service for Kodi skins</summary>
+        <description>Helper service for Kodi skins</description>
+        <news>
+v1.1.43
+- removed rt ratings 
+- Add tunefind
+        </news>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <language></language>
+        <platform>all</platform>
+        <license>GPL v2.0</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+        <website></website>
+        <source>https://github.com/kodi-community-addons/script.skin.helper.service</source>
+    </extension>
+</addon>
+
+<addon id="script.module.metahandler" name="metahandler" version="5.0.1" provider-name="Eldorado">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.six" version="1.14.0+matrix.2" />
+		<import addon="script.module.simplejson" version="3.17.0+matrix.2" />
+		<import addon="script.module.myconnpy" version="8.0.18+matrix.1" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
+		<description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart></fanart>
+			<screenshot></screenshot>
+		</assets>
+		<news>
+[B]Version 5.0.1[/B]
+- Fixed settings.xml version preventing setting UI from showing in Kodiunder Matrix
+		</news>
+	</extension>
+</addon>
+
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="2.2.6" provider-name="jmooremcc, spoyser">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.metahandler" optional="true" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image executable</provides>
+  </extension>
+  
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
+    <description lang="en_GB">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
+    <platform>all</platform>
+    <language>en es</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
+    <website />
+    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
+    <source>https://github.com/jmooremcc/plugin.program.super.favourites</source>
+    <email>seanpoyser at gmail.com</email>
+    <email>jmooremcc at hotmail.com</email>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+
+    <news>
+2.2.6 April 2022
+      - Fix context menu settings bug
+      - Fix more issues with activateWindowCommand
+    </news>
+
+  </extension>
+
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+
+      <item library="capture.py">
+        <label>$ADDON[plugin.program.super.favourites 30002]</label>
+        <visible>String.IsEqual(Window(Home).Property(SF_STD_CONTEXTMENU_ENABLED),True) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
+      </item>
+
+      <item library="menu_addtofaves.py">
+        <label>$ADDON[plugin.program.super.favourites 30047]</label>
+        <visible>String.IsEqual(Window(Home).Property(SF_STD_ADDTOFAVES_ENABLED),True) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
+      </item>
+
+      <item library="menu_download.py">
+        <label>$ADDON[plugin.program.super.favourites 30259]</label>
+        <visible>String.IsEqual(Window(Home).Property(SF_STD_DOWNLOAD_ENABLED),True) + Player.IsInternetStream</visible>
+      </item>
+
+    </menu>
+  </extension>
+
+</addon>
+
+<addon id="resource.images.recordlabels.white" name="Recordlabel Icons - White" version="0.0.7" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="recordlabels" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">White Recordlabel Icons</summary>
+		<description lang="en">White Recordlabel Icons</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Share Alike 3.0 United States</license>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>		
+	</extension>
+</addon>
+
+<addon id="script.grab.fanart"
+    name="Grab Fanart" version="0.16.0" provider-name="robweber">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.future" version="0.16.0.4"/>
+  </requires>
+  <extension point="xbmc.python.library" library="default.py" />
+  <extension point="xbmc.service" library="launcher.py"  />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Exposes fanart as skin properties for slideshows, etc</summary>
+    <description lang="en_GB">Uses the Kodi database to grab all fanart from media items and put it into a skin property for use by skins/slideshows.</description>
+    <forum>https://forum.kodi.tv/showthread.php?tid=166572</forum>
+    <source>https://github.com/robweber/script.grab.fanart</source>
+	<website>https://github.com/robweber/script.grab.fanart</website>
+    <license>MIT</license>
+    <platform>all</platform>
+    <language>en</language>
+    <news>Version 0.16.0
+- made compatible with Matrix
+    </news>
+    <assets>
+    	<icon>resources/media/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.pvr.artwork" name="PVR Artwork Module" version="2.1.9" provider-name="PvD">
+    <requires>
+	    <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.simplecache" version="2.0.2"/>
+        <import addon="script.module.requests" version="2.22.0+matrix" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.script" library="service.py" />
+    <extension point="xbmc.service" library="main.py" />
+    <extension point="kodi.context.item" library="addevent.py">
+            <menu id="kodi.core.main">
+                <item library="service.py" args="call_contextmenu">
+                    <label>32065</label>
+                    <visible>System.HasAddon(script.module.pvr.artwork) + Skin.HasSetting(Skin_enablePvrArtwork) + [Window.IsActive(MyPVRChannels.xml) | Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) | Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)]</visible>
+                </item>
+            </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Fetch PVR artwork from folders, libraries and TMDB</summary>
+        <description lang="en">The PVR artwork module for Kodi provides artwork for PVR related content by scraping (and caching) this information from local folders, libraries and TMDB. This module uses the TMDb API but is not certified by TMDb.</description>
+        <news/>
+        <license>GNU GPL Version 3, 29 June 2007</license>
+        <forum/>
+        <source>https://github.com/b-jesch/script.module.pvr.artwork</source>
+        <platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart/>
+		</assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.cuminationplus" name="Cumination Plus" provider-name="Cumination" version="1.1.57">
+    <requires>
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.resolveurl" version="5.0.00" />
+        <import addon="script.module.resolveurl.xxx" version="2.0.1" />
+        <import addon="script.common.plugin.cache" />
+        <import addon="script.module.websocket" version="0.50.0" />
+        <import addon="script.module.requests" optional="true" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en_GB">Cumination Plus, the culmination of adult sites on Kodi</summary>
+        <description lang="en_GB">Cumination Plus, the culmination of adult sites on Kodi</description>
+        <disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the sites offered. Click on About from the contextmenu on each site to check for contact details.</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.70" provider-name="gujal">
+    <requires>
+        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="plugin.googledrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <description lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <disclaimer lang="en_GB">This script only resolves video content from legitimate file lockers without prejudice. If this script is being used by 3rd parties to resolve content that you feel infringes upon your Intellectual Property then please take your complaints to the actual website or developer linking to such content and not here. This script in no way searches for any content whatsoever.</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.resolveurl.xxx" version="2.1.24" name="Adult Resolver SMR Extension" provider-name="gujal">
+	<requires>
+		<!-- <import addon="xbmc.python" version="2.1.0"/> -->
+        <import addon="script.module.resolveurl" version="5.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Resolve adult video host URL's to be playable in XBMC/Kodi.</summary>
+		<description lang="en">Resolve adult video host URL's to be playable in XBMC/Kodi.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.websocket" name="websocket library" version="0.58.0+matrix.2" provider-name="liris">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.six" version="1.14.0+matrix.2" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <summary lang="en_GB">websocket library repacked for Kodi</summary>
+    <source>https://github.com/pkscout/script.module.websocket</source>
+    <website>https://github.com/websocket-client/websocket-client</website>
+    <platform>all</platform>
+    <license>LGPL-2.1-only</license>
+  </extension>
+</addon>
+
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.86" provider-name="elgatito">
+    <requires>
+        <import addon="xbmc.addon" version="16.0.0" />
+        <import addon="repository.elementum" optional="true" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.python.module" library="resources/site-packages" />
+    <extension point="xbmc.subtitle.module" library="navigation.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Elementum: Media streaming</summary>
+        <description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
+        <disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <website>http://elementum.surge.sh/</website>
+        <source>https://github.com/elgatito/plugin.video.elementum</source>
+        <forum></forum>
+        <license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshots/home.png</screenshot>
+            <screenshot>resources/screenshots/movies.png</screenshot>
+            <screenshot>resources/screenshots/webui.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.71" provider-name="elgatito">
+    <requires>
+        <import addon="xbmc.addon" version="16.0.0" />
+        <import addon="plugin.video.elementum" optional="true"/>
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.future" version="0.16.0.4"/>
+    </requires>
+    <extension point="xbmc.python.script" library="burst.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Elementum torrents provider</summary>
+        <description lang="en">Elementum Burst is a lean and mean multi-provider for Elementum.</description>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+        <license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
+        <website>https://elementum.surge.sh</website>
+        <source>https://github.com/elgatito/script.elementum.burst</source>
+        <forum>TODO</forum>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon
+  id="pvr.iptvsimple"
+  version="19.1.0"
+  name="PVR IPTV Simple Client"
+  provider-name="nightik and Ross Nicholson">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="1.2.0" version="1.3.0"/>
+<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+<import addon="kodi.binary.global.filesystem" minversion="1.1.0" version="1.1.6"/>
+<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
+<import addon="kodi.binary.instance.pvr" minversion="7.1.0" version="7.1.0"/>
+    <import addon="inputstream.adaptive" minversion="2.6.6"/>
+    <import addon="inputstream.rtmp" minversion="3.4.0"/>
+  </requires>
+  <extension
+    point="kodi.pvrclient"
+    library_linux="pvr.iptvsimple.so.19.1.0"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/kodi-pvr/pvr.iptvsimple</source>
+    <forum>https://forum.kodi.tv/forumdisplay.php?fid=215</forum>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>
+v19.1.0
+- Choose a suitable default stream type for default and append catchup modes
+- Allow catchup tags in M3U header
+- Update flussonic catchup type strings
+- For flussonic catchup add support for generic stream types (where any dir name is used after channel id)
+- Support alternative tag name for channel number
+    </news>
+    <summary lang="en_GB">Kodi PVR addon for IPTV support.</summary>
+    <description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.&amp;#10;    &amp;#10;For documentation visit: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md&amp;#10;    </description>
+    <disclaimer lang="en_GB">The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+  </extension>
+</addon>
+
+<addon
+	id="service.languagepreferencemanager.leia"
+	name="Language Preference Manager - Leia"
+	version="0.0.7-Leia"
+	provider-name="ace20022"
+	>
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.service" library="default.py" start="login"/>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Language Preference Manager</summary>
+		<description lang="en">Sets the audio and subtitle track according to your language preferences</description>
+		<disclaimer lang="en">For bugs, requests or general questions visit the Language Preference Manager thread on the Kodi forum.</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>		
+	</extension>
+</addon>
+
+<addon id="service.subtitles.subscenenice2s"
+       name="Subscene 2022 - 18.9"
+       version="1.0.0"
+       provider-name="NICE">
+    <requires>
+        <!-- <import addon="xbmc.python" version="3.0.0"/> -->
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.subs2ns" version="1.0.0"/>
+        <import addon="script.module.chardet" />
+    </requires>
+    <extension point="xbmc.subtitle.module" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">SUBSCENE HỔ TRỢ KODI 18 - 19</summary>
+        <description lang="en">SUBSCENE HỔ TRỢ KODI 18 - 19</description>
+        <news>
+Liên Hệ: Fb.Com/PhatDatPQ
+Donate: 
+        ♥ Argibank ♥
+        ♥ 7790205260097 ♥
+        ♥ ĐOÀN PHÁT ĐẠT ♥
+ĐÓNG GÓP CHO CỘNG ĐỒNG KODI VN - VUI LÒNG KHÔNG MANG ĐI THƯƠNG MẠI. CẢM ƠN ♥
+[v1.0.1]:
+  * Hổ Trợ Chạy 2 Sub Song Song.
+[v1.0.0]:
+  * Subscene Hổ Trợ Kodi 19.4
+        </news>
+        <disclaimer lang="en"/>
+        <platform>all</platform>
+        <language/>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>https://www.facebook.com/groups/704400303417098</forum>
+        <website/>
+        <email/>
+        <source>https://github.com/manacker/service.subtitles.subscene</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>		
+    </extension>
+</addon>
+
+<addon id="script.module.subs2ns" name="subs2ns module" version="1.0.0" provider-name="NICE">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Provides SubS2N library functionality for Kodi addons</summary>
+        <description lang="en_GB">Provides SubS2N library functionality for Kodi addons</description>
+        <disclaimer lang="en_GB" >May contain a bug</disclaimer>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://nicerepo.cf</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+</addons>

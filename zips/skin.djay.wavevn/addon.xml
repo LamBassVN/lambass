@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.djay.wavevn" version="1.1.1" name="Djay:Wave" provider-name="Djaythemes">
+	<requires>
+		<import addon="script.skin.helper.colorpicker" version="2.0.1" />
+		<import addon="xbmc.gui" version="5.15.0" />
+		<import addon="script.skinshortcuts" version="2.0.2" />
+		<import addon="service.library.data.provider" version="0.4.2" />
+		<import addon="script.grab.fanart" version="0.16.0" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Skin mod by Djay And Terror Skins the default view is set to icons</summary>
+		<description lang="en_GB">Fork of Aeon Terror Big thanks to TK for letting this to be released</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>

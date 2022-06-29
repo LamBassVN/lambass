@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<addon id="skin.ace2mod" version="1.8.1" name="Ace 2 Mod" provider-name="MarcosQui, LamBass">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+        <import addon="resource.uisounds.aeonmq6" version="1.0.0" />
+        <import addon="script.favourites" version="8.1.2" />
+        <import addon="script.globalsearch" version="9.0.8" />		
+        <import addon="script.image.resource.select" version="3.0.2" />	
+        <import addon="script.skin.helper.colorpicker" version="2.0.1" />
+        <import addon="service.library.data.provider" version="0.4.2" />
+        <import addon="script.skin.helper.service" version="1.1.43" />		
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Ace 2, improved, more light and more powerful than ever.</summary>
+		<summary lang="vi_VN">Ace 2, improved, more light and more powerful than ever.</summary>
+		<description lang="en">The Ace reaches its second edition.[CR]Reformulated, very simple to use, with a new code that provides a lightweight and powerful skin.[CR]The Ace 2 incorporates new features such as Flexible Widgets 3nd Generation which takes the main menu's level of customization to something never seen before.[CR]Ace 2, you've never seen a skin like this.</description>
+		<disclaimer lang="en_GB">Ace 2, improved, more light and more powerful than ever.</disclaimer>
+		<disclaimer lang="vi_VN">Ace 2, improved, more light and more powerful than ever.</disclaimer>		
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>https://forum.kodi.tv/</forum>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>

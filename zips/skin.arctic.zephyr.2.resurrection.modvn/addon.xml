@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.arctic.zephyr.2.resurrection.modvn" name="Arctic: Zephyr 2 - Resurrection Mod" provider-name="jurialmunkey, pkscout, nfm886, lambass" version="1.1.1">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="2.0.2" />
+        <import addon="script.artistslideshow" version="3.3.2" />
+        <import addon="script.image.resource.select" version="3.0.2" />
+        <!-- not this -->
+        <import addon="script.embuary.helper" version="2.0.8" />
+        <import addon="resource.images.studios.white" version="0.0.30" />
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
+        <import addon="resource.images.weathericons.white" version="0.0.6" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">This is a light mod of Arctic Zephyr 2 by heppen. Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey and moded to work with Kodi 19 Matrix by pkscout. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=362941</forum>
+        <source>https://github.com/nfm886/skin.arctic.zephyr.2.resurrection.modvn</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addon id="skin.fuse.neuemod" version="1.1.1" name="Neue Mod" provider-name="jurialmunkey, lambass">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0"/>
+        <import addon="script.skinshortcuts" version="2.0.2"/>
+        <import addon="script.skin.helper.service" version="1.1.43"/>
+        <import addon="script.image.resource.select" version="3.0.2"/>
+        <import addon="resource.images.studios.white" version="0.0.30"/>
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6"/>
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Soft gradients, pixel highlights and visible fanart</summary>
+        <description lang="en">Neue Mod utilises low list viewtypes throughout the skin in order to showcase fanart. The home menu bar is accessible from anywhere by pressing up, minimising the need to ever "go home".</description>
+        <platform>all</platform>
+        <license>Creative Commons Non Commercial 3.0 License</license>
+        <forum/>
+        <source/>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
